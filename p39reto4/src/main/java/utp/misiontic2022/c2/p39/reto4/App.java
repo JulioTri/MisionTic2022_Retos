@@ -1,0 +1,35 @@
+package utp.misiontic2022.c2.p39.reto4;
+
+import javax.swing.*;
+import java.awt.*;
+import utp.misiontic2022.c2.p39.reto4.view.JFrameMenu;
+
+
+import utp.misiontic2022.c2.p39.reto4.view.ViewRequerimientos;
+
+/**
+ * Esta clase solo se debe usar para hacer pruebas locales,
+ * no se debe subir en iMaster
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {  /*
+        System.out.println("Requerimiento 1");
+        ViewRequerimientos.requerimiento1();
+
+        System.out.println("\nRequerimiento 2");
+        ViewRequerimientos.requerimiento2();
+
+        System.out.println("\nRequerimiento 3");
+        ViewRequerimientos.requerimiento3();
+        
+        System.out.println("\nRequerimiento 3");
+        ViewRequerimientos.proyectos();
+        */
+        JFrame frame = new JFrameMenu();        
+        frame.setVisible(true);
+        
+    }
+}
+
